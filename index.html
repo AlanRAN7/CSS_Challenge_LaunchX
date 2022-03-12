@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination</title>
+    <!-- Estilos -->
+<link rel="stylesheet" href="styles/headerStyle.css">
+<link rel="stylesheet" href="styles/landingStyle.css">
+    <!-- Fuentes -->
+    <!-- Fredoka Regular -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#icon").click(function(){
+                $("ul").toggleClass("show")
+            })
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="" class ="titleVaccination"><h3>Vaccination</h3></a>
+        <ul>
+            <!-- <li><a class = "active" href="#">INICIO</a></li> -->
+            <li><a href="#">Database</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Regulation</a></li>
+        <button class ="blueBtn">Hoax Buster</button>
+
+        </ul>
+        <label for="" id="icon">
+            <i>☰</i>
+        </label>
+    </nav>
+    <!-- Primera Pantalla -->
+    <div class="firstDiv">
+    <div class="txtMainDiv">
+        <h1 class = "txtTitle txtFirstDiv">Fight Virus <br>
+        With Vaccines</h1>
+        <p class = "txtFirstDiv">Let's stop this pandemic by killing the virus<br>
+        with a vaccine, don't let yourself and your<br>
+        family get infected</p>
+        <div class = "factsVaccineDiv">
+            <!-- Todo en Bold -->
+            <img src="./img/icons/shield-yellow.png" class = "iconsFacts"alt="">
+            <p class = "txtMargin">Best Protection</p>
+            <img src="./img/icons/star-yellow.png" class = "iconsFacts"alt="">
+            <p class = "">Selected Vaccines</p>
+        </div>
+            <p class="scheduleTitle" >Schedule your vaccinations</p>
+            <div class="scheduleVaccinations">
+                <div class="locationDiv">
+                    <p class="titlesSchedule">Location</p>
+                    <p class="dataSchedule">Jakarta Utara</p>
+                </div>
+                <div class="dateDiv">
+                    <p class="titlesSchedule">Date</p>
+                    <p class="dataSchedule">08 July 2021</p>
+                </div>
+                <div class="vaccineDiv">
+                    
+                    <p class="titlesSchedule">Vaccine Type</p>
+                    <p class="dataSchedule">Moderna</p>
+                </div>
+        <button class ="blueBtn scheduleBtn">Submit</button>
+
+            </div>
+    </div>
+    <div class="nurseDiv">
+        <img src="img/nurse-covid.png" alt="" class ="nurseFirstDiv">
+    </div>
+    </div>
+
+</body>
+</html>

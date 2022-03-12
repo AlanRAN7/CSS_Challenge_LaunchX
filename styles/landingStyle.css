@@ -1,0 +1,108 @@
+/* Primera pantalla */
+.firstDiv{
+    height: 550px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+.txtMainDiv{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(#ecf0f1, #FFFFFF, #ecf0f1);
+    /* display: block; */
+    align-self: center;
+}
+.nurseDiv{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(#2C4CC9,#3959d7, #3555D3);
+}
+.nurseFirstDiv{
+    height: 95%;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+.txtFirstDiv{
+    display: block;
+    margin-left: 25%;
+    color: #6D7B93;
+    font-size: 17px;
+}
+.txtTitle{
+    font-weight: 600;
+    word-spacing: 10px;
+    align-items: center;
+    font-size: 50px !important;
+    color: #1F3E72 !important;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.iconsFacts{
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    /* box-shadow: 0 4px 8px 0 #FFD012, 0 6px 20px 0 #FFD012); */
+}
+.factsVaccineDiv{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1F3E72;
+    /* background: red; */
+    margin-left: -15px;
+}
+
+.txtMargin{
+    margin-right: 20px;
+}
+
+.scheduleTitle{
+    margin-top: 25px;
+    color: #1F3E72;
+    margin-left: 15px;
+    font-size: 14;
+    font-weight: 600;
+}
+
+.scheduleVaccinations{
+    margin-top: 25px;
+    margin-left: 10px;
+    align-items: center;
+    width:95%;
+    height: 125px;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.scheduleBtn{
+    margin-right: 20px;
+}
+.titlesSchedule, .dataSchedule{
+    margin-left: 12.5px;
+}
+
+.titlesSchedule{
+    font-weight: 300;
+}
+
+.dataSchedule{
+    font-weight: 600;
+    color: #1F3E72;
+}
+@media (max-width: 909px){
+    .firstDiv{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .txtMainDiv, .nurseDiv{
+        width: 100%;
+        height: 500px;
+    }
+
+}
