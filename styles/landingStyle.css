@@ -11,7 +11,7 @@
     height: 100%;
     background-image: linear-gradient(#ecf0f1, #FFFFFF, #ecf0f1);
     /* display: block; */
-    align-self: center;
+    align-items: center;
 }
 .nurseDiv{
     width: 50%;
@@ -109,16 +109,20 @@
 @media (max-width: 414px){
     .firstDiv{
         width: 100%;
-        height: 100px;
+        height: 1100px;
         display: flex;
         flex-direction: column;
     }
     .txtMainDiv, .nurseDiv{
         width: 100%;
+        height: 600px;
+    }
+    .nurseDiv{
         height: 500px;
     }
     .nurseFirstDiv{
-        height: 95%;
-        margin-left: -5%;
+        width: 100%; 
+        height: 96%;
+        margin-left: -10%;
     }
 }
