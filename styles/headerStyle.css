@@ -7,7 +7,8 @@
     font-family: 'Fredoka', sans-serif;
 }
 body{
-    background-color: #24282f;
+    /* background-color: #24282f; */
+    background-image: linear-gradient(#ecf0f1, #FFFFFF, #ecf0f1);
     font-family: 'Roboto', sans-serif;
 }
 nav{

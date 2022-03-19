@@ -93,6 +93,263 @@
     font-weight: 600;
     color: #1F3E72;
 }
+/* Segunda sección */
+.secondDiv{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    /* background-image: linear-gradient(#ecf0f1, #FFFFFF, #ecf0f1); */
+    align-items: center;
+}
+
+.brandVaccines{
+    width: 220px;
+    height: 75px;
+}
+
+/* Tercera sección */
+.thirdDiv{
+    width: 100%;
+    height: 650px;
+    /* background-color: red; */
+    margin-top: 25px;
+}
+.mainTxtTD{
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    /* background-color: pink; */
+}
+
+.h1MainTxtTD{
+    font-size: 40px;
+    margin-left: 30px;
+    color: #1F3E72 !important;
+}
+.h3MainTxtTD{
+    font-size: 25px;
+    margin-left: 30px;
+    color: #1F3E72 !important;
+}
+.pMainTxtTD{
+    font-size: 17px;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: #6D7B93;
+}
+.benefitsVaccineDiv{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: violet; */
+}
+
+.factsBenefitsDiv{
+    width: 300px;
+    height: 350px;
+    /* background: cadetblue; */
+    border-width: medium;
+    border-color: #6D7B93;
+    align-items: center;
+}
+.marginLeftDiv{
+    margin-left: 20px;
+}
+.marginRightDiv{
+    margin-right: 20px;
+}
+.selectDiv{
+    margin-top: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.factsBenefitsTxt{
+    font-size: 30px !important;
+    font-weight: 500 !important;
+}
+
+/* Cuarta Sección */
+.fourthDiv{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    display: flex;
+    /* margin-bottom: 20px; */
+}
+.leftHalfDivImg{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient( #F7F9F9 50%, #2C4CC9,#3959d7, #3555D3 50%);
+}
+.rightHalfDivInfo{
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.infoDiv{
+    width: 100%;
+    height: 200px;
+}
+
+.preparationsDivMain{
+    width: 100%;
+    height: 400px;
+    /* background-color: crimson; */
+}
+.infoDesplegable{
+    height: 100px !important;
+    padding: 0 !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.infoPreparationsDiv{
+    width: 400px;
+    height: 60px;
+    /* background-color: aqua; */
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px 0;
+}
+.preparationsBeforeTxt{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1F3E72;
+}
+
+/* Quinta Sección */
+.marginTopEmergencyContact{
+    margin-top: 25px;
+}
+.pTxtSizeContactInfo{
+    font-size: 20px;
+}
+.contanierEmergencyInfo{
+    width: 100%;
+    height: 375px;
+    display: flex;
+}
+.leftEmergencyDiv{
+height: 350px;
+width: 35%;
+    text-align: center;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.rightEmergencyDiv{
+height: 350px;
+width: 35%;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.emergencyTitleH3{
+    margin-top: 30px;
+    color: #3b5684;
+    font-weight: 400;
+}
+.infoGeneralEmergencyDiv{
+    margin-top: 10px;
+    height: 175px;
+    width: 185px;
+    text-align: center;
+      /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    position:static;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.emergencyBtn{
+    margin-top: 15px !important;
+    width: 167px;
+    /* background-color:  !important; */
+  background-image: linear-gradient(92.88deg, #fff 9.16%, #F1F5FF 43.89%, #fff 64.72%);
+  color:#1F3E72;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.activeBtn{
+  background-image: linear-gradient(92.88deg, #2C4CC9 9.16%, #3959d7 43.89%, #3555D3 64.72%) !important;
+  color:#fff;
+
+}
+
+/* Footer */
+.footerDiv{
+/* background-color: #EEF3FF; */
+/* background-color: pink; */
+width: 100%;
+height: 180px
+}
+
+.infoFooter{
+    height: 130px
+}
+
+.infoFooter, .extraInfoDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extraInfoDiv{
+    margin-top: 25px;
+}
+
+.informationVaccineDiv{
+    margin-left: 25px;
+/* background-color: blue; */
+width: 650px;
+}
+
+.h2Footer{
+    font-weight: 600;
+    background: -webkit-linear-gradient(#2C4CC9 9.16%, #3959d7 43.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.supportInfoDiv{
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+.h3Footer{
+    color: #1F3E72;
+}
+
+.pFooter{
+    margin-top: 5px;
+    color: #3b5684;
+}
+
+.rightsReservedDiv{
+    width: 60%;
+}
+
+.policyDiv{
+    margin-right: 30px;
+}
+.maleDoctorImg{
+    margin-top: 0px;
+    margin-left: 20%;
+    width: 350px;
+    height: 600px;
+}
+.femaleDoctorImg{
+    margin-top: 0px;
+    margin-left: 15%;
+    width: 450px;
+    height: 600px;
+}
+/*====================================================================*/
 @media (max-width: 909px){
     .firstDiv{
         width: 100%;
@@ -100,9 +357,21 @@
         display: flex;
         flex-direction: column;
     }
+
     .txtMainDiv, .nurseDiv{
         width: 100%;
-        height: 500px;
+        height: 550px;
+    }
+    .brandVaccines{
+        margin-top: 25px;
+        width: 100px;
+        height: 40px;
+    }
+    .responsiveMarginBrandVaccines1{
+        margin-left: 20px;
+    }
+    .responsiveMarginBrandVaccines2{
+        margin-right: 20px;
     }
 }
 
@@ -112,6 +381,9 @@
         height: 1100px;
         display: flex;
         flex-direction: column;
+    }
+    .txtTitle, .txtFirstDiv{
+        margin-left: 15px;
     }
     .txtMainDiv, .nurseDiv{
         width: 100%;
@@ -125,4 +397,110 @@
         height: 96%;
         margin-left: -10%;
     }
+    .brandVaccines{
+        margin-top: -20px;
+        width: 70px;
+        height: 30px;
+    }
+    .responsiveMarginBrandVaccines1{
+        margin-left: 20px;
+    }
+    .responsiveMarginBrandVaccines2{
+        margin-right: 20px;
+    }
+
+    /* Tercera Pantalla */
+    .thirdDiv{
+        width: 100%;
+        height: 1150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainTxtTD{
+        width: 100%;
+        height: 270px;
+    }
+    .benefitsVaccineDiv{
+        flex-direction: column;
+    }
+
+    .factsBenefitsDiv, .selectDiv{
+        height: 450px;
+    }
+
+    /* Cuarta Pantalla */
+    .fourthDiv{
+        width: 100%;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftHalfDivImg, .rightHalfDivInfo{
+        width: 100%;
+        height: 50%;
+    }
+    .infoDiv{
+        height: 300px;
+    }
+
+    .infoPreparationsDiv{
+        margin-left: 5px;
+    }
+
+    /* Quinta Pantalla */
+    .fourthDiv{
+        width: 100%;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoDiv{
+        height: 250px;
+    }
+    .h1MainTxtTD, .pMainTxtTD{
+        margin-left: 10px;
+    }
+
+    .contanierEmergencyInfo, .leftEmergencyDiv, .rightEmergencyDiv{
+        margin-left: 0px;
+    }
+    .maleDoctorImg{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 400px;
+        height: 700px;
+    }
+    .femaleDoctorImg{
+        margin-top: 100px;
+        margin-left: -15px;
+        width: 400px;
+        height: 600px;
+    }
+        /* Footer */
+    .footerDiv, .infoFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .infoFooter{
+        width: 100%;
+        height: 85%;
+        align-content:center;
+    }
+    .informationVaccineDiv{
+        margin-left: 0px;
+    }
+    .informationVaccineDiv, .aboutDiv, .companyInfoDiv, .supportInfoDiv{
+        height:35%;
+        width: 100%;
+        text-align:center;
+    }
+    .footerDiv{
+        margin-top:25px;
+        width: 100%;
+        height: 500px;
+    }
 }
+
